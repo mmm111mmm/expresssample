@@ -2,7 +2,13 @@
   "name": "german-words",
   "description": "a really cool app",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
   "engines": {
     "node": "10.3.0"
+  },
+  "dependencies": {
+    "expressjs": "^1.0.1"
   }
 }
